@@ -1281,4 +1281,21 @@ section {
   }
 }
 
+/* Profile Photo Styling */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
 /*# sourceMappingURL=styles.css.map */
